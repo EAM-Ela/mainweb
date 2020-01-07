@@ -296,7 +296,7 @@ html, body {
 
 .card-title-services {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.12rem;
   font-weight: 700;
   margin: 0;
 }
@@ -465,6 +465,9 @@ html, body {
 
 .card-title-work {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -814,7 +817,7 @@ figure.effect-lily:hover img {
 }
 
 .div-col {
-  padding: 1.75rem 1.5rem 0.5rem;
+  padding: 1.75rem 0.8rem 0.5rem;
 }
 
 .footer-brand {
@@ -1104,9 +1107,26 @@ figure.effect-lily:hover img {
   #bg-dropdown {
     text-align: center;
   }
+
+  .laptop {
+    height: 413px;
+  }
+  .card-choose{
+    height: 360px;
+  }
 }
 
 @media (max-width: 767px) {
+
+  .laptop {
+    height: 558px;
+  }
+  .card-choose{
+    height: 505px;
+  }
+  /* .swiper-container2{
+    padding: 0;
+  } */
 
   .div-mii-logo img {
     padding-top: 1.5rem;
@@ -1167,6 +1187,13 @@ figure.effect-lily:hover img {
 
   .why-choose-us h3 {
     font-size: 1.2rem;
+  }
+
+  .laptop {
+    height: 700px;
+  }
+  .card-choose{
+    height: 650px;
   }
 
   .btn-link-faq {
